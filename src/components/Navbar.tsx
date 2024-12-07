@@ -15,6 +15,7 @@ export default function Navbar() {
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
+          
           <div className="flex-shrink-0">
             <a href="#" className="text-2xl font-bold text-primary-600">
               PharmaCare
@@ -22,6 +23,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Menu */}
+          
           <div className="hidden md:flex md:items-center md:space-x-8">
             {menuItems.map((item) => (
               <a
@@ -41,6 +43,7 @@ export default function Navbar() {
           </div>
 
           {/* Mobile menu button */}
+          
           <div className="flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -62,6 +65,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile menu */}
+      
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -71,6 +75,7 @@ export default function Navbar() {
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
           >
+            
             <div className="px-4 pt-2 pb-3 space-y-1">
               {menuItems.map((item) => (
                 <a
@@ -82,6 +87,7 @@ export default function Navbar() {
                   {item.name}
                 </a>
               ))}
+              
               <a
                 href="#contact"
                 className="block w-full text-center rounded-lg bg-primary-600 px-4 py-2 text-base font-semibold text-white shadow-sm hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all duration-300"
@@ -89,6 +95,7 @@ export default function Navbar() {
               >
                 Get Started
               </a>
+              
             </div>
           </motion.div>
         )}
