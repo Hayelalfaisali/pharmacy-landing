@@ -2,6 +2,7 @@
 
 A modern, responsive landing page for a pharmacy built with React, TypeScript, and Tailwind CSS. Features smooth animations, interactive components, and a professional design focused on healthcare services.
 
+
 ## 🚀 Features
 
 - **Modern Design**: Clean and professional UI with smooth animations
@@ -12,42 +13,43 @@ A modern, responsive landing page for a pharmacy built with React, TypeScript, a
 
 ## 🎨 Key Sections
 
-1. **Navigation**
+1. **Navigation***
    - Responsive navbar with mobile menu
    - Smooth scroll behavior
    - Transparent background with blur effect
 
-2. **Hero Section**
+2. **Hero Section***
    - Full-width design
    - Engaging animations
    - Call-to-action buttons
    - Professional imagery
 
-3. **Stats Section**
+3. **Stats Section***
    - Animated counters
    - Interactive cards
    - Key metrics display
    - Hover effects
 
-4. **Services Section**
+4. **Services Section***
    - Service cards with hover effects
    - Icon-based design
    - Clear service descriptions
    - Responsive grid layout
 
-5. **Features Section**
+5. **Features Section***
    - Comprehensive feature showcase
    - Modern iconography
    - Interactive cards
    - Detailed descriptions
 
-6. **Testimonials Section**
+6. **Testimonials Section***
    - Customer reviews
    - Profile pictures
    - Star ratings
    - Card-based layout
 
-7. **Contact Section**
+
+7. **Contact Section***
    - Contact form with validation
    - Modern form design
    - Responsive layout
@@ -105,6 +107,7 @@ pharmacy-landing/
 └── README.md
 ```
 
+
 ## 🎨 Design Features
 
 - **Animations**: Smooth scroll animations using Framer Motion
@@ -148,6 +151,7 @@ npm run build
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+   
 
 ## 📄 License
 
