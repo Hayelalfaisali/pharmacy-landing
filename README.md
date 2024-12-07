@@ -105,6 +105,7 @@ pharmacy-landing/
 └── README.md
 ```
 
+
 ## 🎨 Design Features
 
 - **Animations**: Smooth scroll animations using Framer Motion
