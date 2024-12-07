@@ -1,21 +1,24 @@
-import { useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Contact from './components/Contact';
-import './App.css';
+import { useEffect } from "react";
+
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import Features from "./components/Features";
+import Stats from "./components/Stats";
+import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contact";
 
 function App() {
   useEffect(() => {
     // Smooth scroll handling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', (e: Event) => {
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
         e.preventDefault();
-        const target = e.currentTarget as HTMLAnchorElement;
-        const href = target.getAttribute('href');
+        const href = this.getAttribute("href");
         if (href) {
           document.querySelector(href)?.scrollIntoView({
-            behavior: 'smooth'
+            behavior: "smooth",
           });
         }
       });
@@ -26,7 +29,10 @@ function App() {
     <div className="w-full overflow-x-hidden">
       <Navbar />
       <Hero />
+      <Stats />
       <Services />
+      <Features />
+      <Testimonials />
       <Contact />
     </div>
   );
