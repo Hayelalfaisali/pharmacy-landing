@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -11,7 +10,6 @@ import Contact from "./components/Contact";
 
 function App() {
   useEffect(() => {
-    // Smooth scroll handling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener("click", (e) => {
         e.preventDefault();
@@ -24,7 +22,6 @@ function App() {
       });
     });
   }, []);
-
   return (
     <div className="w-full overflow-x-hidden">
       <Navbar />
