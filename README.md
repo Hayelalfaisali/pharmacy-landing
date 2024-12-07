@@ -2,6 +2,7 @@
 
 A modern, responsive landing page for a pharmacy built with React, TypeScript, and Tailwind CSS. Features smooth animations, interactive components, and a professional design focused on healthcare services.
 
+
 ## 🚀 Features
 
 - **Modern Design**: Clean and professional UI with smooth animations
