@@ -43,13 +43,11 @@ const services = [
     )
   }
 ];
-
 export default function Services() {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
-
   return (
     <section id="services" className="w-screen bg-gray-50 py-20">
       <div className="w-full px-4 sm:px-6 lg:px-8">
@@ -68,7 +66,6 @@ export default function Services() {
             From online consultations to medication management, we've got you covered.
           </p>
         </motion.div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
           {services.map((service, index) => (
             <motion.div
