@@ -48,6 +48,7 @@ A modern, responsive landing page for a pharmacy built with React, TypeScript, a
    - Star ratings
    - Card-based layout
 
+
 7. **Contact Section**
    - Contact form with validation
    - Modern form design
