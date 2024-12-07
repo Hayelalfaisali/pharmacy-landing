@@ -13,9 +13,9 @@ function App() {
   useEffect(() => {
     // Smooth scroll handling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-      anchor.addEventListener("click", function (e) {
+      anchor.addEventListener("click", (e) => {
         e.preventDefault();
-        const href = this.getAttribute("href");
+        const href = anchor.getAttribute("href");
         if (href) {
           document.querySelector(href)?.scrollIntoView({
             behavior: "smooth",
