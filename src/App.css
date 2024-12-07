@@ -7,7 +7,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Custom Animations */
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
@@ -30,7 +29,6 @@ body {
   background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
 }
 
-/* Custom Shadows */
 .shadow-custom {
   box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.1);
 }
