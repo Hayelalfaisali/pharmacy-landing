@@ -9,7 +9,6 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative w-screen min-h-screen">
-      {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover"
@@ -19,10 +18,8 @@ export default function Contact() {
         <div className="absolute inset-0 bg-gradient-to-r from-primary-900/90 to-primary-800/90"></div>
       </div>
 
-      {/* Content */}
       <div className="relative w-full px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Contact Information */}
           <motion.div
             ref={ref}
             initial={{ opacity: 0, x: -20 }}
@@ -75,7 +72,6 @@ export default function Contact() {
             </div>
           </motion.div>
 
-          {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}

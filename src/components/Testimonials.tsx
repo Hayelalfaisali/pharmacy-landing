@@ -46,7 +46,6 @@ export default function Testimonials() {
             Don't just take our word for it - hear from our satisfied customers about their experiences with our services.
           </p>
         </motion.div>
-
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 20 }}
@@ -54,6 +53,7 @@ export default function Testimonials() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3"
         >
+          
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
@@ -89,6 +89,7 @@ export default function Testimonials() {
               </div>
             </motion.div>
           ))}
+          
         </motion.div>
       </div>
     </div>

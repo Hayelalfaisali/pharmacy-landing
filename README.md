@@ -106,6 +106,7 @@ pharmacy-landing/
 └── README.md
 ```
 
+
 ## 🎨 Design Features
 
 - **Animations**: Smooth scroll animations using Framer Motion
@@ -151,6 +152,7 @@ npm run build
 5. Open a Pull Request
 
 ## 📄 License
+
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
