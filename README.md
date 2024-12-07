@@ -155,7 +155,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👥 Credits
 
-
 - Design inspiration from modern healthcare websites
 - Icons from Heroicons
 - Images from Unsplash
